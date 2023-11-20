@@ -1,4 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Card from '../../Components/Card'
+import Stack from '../../Components/Stack'
 
 export default function Home(){
     return(
@@ -30,6 +32,24 @@ export default function Home(){
             <div className='title'>
                 <span className='title_text'>Projets</span>
                 <div className='title_border'></div>
+            </div>
+            <div className='projects'>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+            </div>
+            
+            <div className='inverted'>
+                <div className='title'>
+                    <span className='title_text_inverted'>Stack</span>
+                    <div className='title_border_inverted'></div>
+                </div>
+                <div className='stack'>
+                    <Stack/>
+                </div>
             </div>
         </main>
     )
