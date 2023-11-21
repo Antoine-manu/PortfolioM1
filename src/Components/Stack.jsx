@@ -1,12 +1,29 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
+// https://gsap.com/community/forums/topic/24622-i-want-to-stop-scrolling-untill-the-animation-ends-in-gsap-3-how-to-do-this/
+// https://www.youtube.com/watch?v=JnLn8Rq4p_I
 export default function Card(){
     const [active, setActive] = useState(0);
+    
+    const elementRef = useRef(null);
 
+    useEffect(() => {
+        gsap.registerPlugin(ScrollTrigger);
+    
+        ScrollTrigger.create({
+        trigger: '.inverted',
+        pin: true,
+        start: 'center center',
+        end: '+=900 bottom',
+        scrub: 1, // I like the 1 sec delay, set to true for exact anime on scroll
+        markers: true,
+        })
+      }, []);
 
     return(
-        <div className='stack'>
+        <div className='stack' ref={elementRef}>
             <div className='stack_imgs'>
                 <div className='stack_imgs_img'>
                     {active === 0  ?

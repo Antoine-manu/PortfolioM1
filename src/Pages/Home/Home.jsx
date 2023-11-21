@@ -53,6 +53,11 @@ export default function Home(){
                     <Stack/>
                 </div>
             </div>
+            <div className='title'>
+                <span className='title_text'>Projets</span>
+                <div className='title_border'></div>
+            </div>
+            <div className='experience'></div>
         </main>
     )
 }
