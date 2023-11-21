@@ -40,6 +40,8 @@ export default function Home(){
                 <Card/>
                 <Card/>
                 <Card/>
+                <Card/>
+                <Card/>
             </div>
             
             <div className='inverted'>
@@ -47,7 +49,7 @@ export default function Home(){
                     <span className='title_text_inverted'>Stack</span>
                     <div className='title_border_inverted'></div>
                 </div>
-                <div className='stack'>
+                <div className='stacks'>
                     <Stack/>
                 </div>
             </div>
