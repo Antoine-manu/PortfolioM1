@@ -4,7 +4,10 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // https://gsap.com/community/forums/topic/24622-i-want-to-stop-scrolling-untill-the-animation-ends-in-gsap-3-how-to-do-this/
 // https://www.youtube.com/watch?v=JnLn8Rq4p_I
-export default function Card(){
+// https://codepen.io/snorkltv/pen/RwYdVyK
+// https://gsap.com/community/forums/topic/37168-scrolltrigger-pin-an-element-and-change-that-elements-content-on-scroll/
+// Sur le coté une div avec 3 div a 1000px chacune, la stack fixe et je declenche js quand on passe dans l'autre div
+export default function Card({ firstRef, secondRef, lastRef }){
     const [active, setActive] = useState(0);
     
     const elementRef = useRef(null);
@@ -13,12 +16,37 @@ export default function Card(){
         gsap.registerPlugin(ScrollTrigger);
     
         ScrollTrigger.create({
-        trigger: '.inverted',
-        pin: true,
-        start: 'center center',
-        end: '+=900 bottom',
-        scrub: 1, // I like the 1 sec delay, set to true for exact anime on scroll
-        markers: true,
+          trigger: firstRef.current,
+          start: 'top top',
+          end: 'bottom bottom',
+          onEnterBack: () => {
+            setActive(0);
+          },
+          onLeave: () => {
+            setActive(1)
+          },
+        })
+        ScrollTrigger.create({
+          trigger: secondRef.current,
+          start: 'top top',
+          end: 'bottom bottom',
+          onEnterBack: () => {
+            setActive(1);
+          },
+          onLeave: () => {
+            setActive(2);
+          },
+        })
+        ScrollTrigger.create({
+          trigger: lastRef.current,
+          start: 'top top',
+          end: 'bottom bottom',
+          onEnterBack: () => {
+            setActive(2);
+          },
+          onLeave: () => {
+            console.log('6');
+          },
         })
       }, []);
 

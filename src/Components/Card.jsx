@@ -1,4 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {Link} from 'react-router-dom'
 
 export default function Card(){
 
@@ -16,9 +17,9 @@ export default function Card(){
                 <span className='projects_card_content_text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet tempor mi.</span>
             </div>
             <div className='projects_card_btn'>
-                <a href="##">
-                    <FontAwesomeIcon size='xl' className='projects_card_btn_icon' icon="fa-solid fa-play" />
-                </a>
+                <Link to='/projects'>
+                <FontAwesomeIcon size='xl' className='projects_card_btn_icon' icon="fa-solid fa-play" />
+                </Link>
             </div>
         </div>
     )

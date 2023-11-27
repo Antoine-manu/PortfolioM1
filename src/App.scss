@@ -113,12 +113,12 @@ body{
 }
 
 .title{
-  width: 85%;
-  margin: auto;
+  width: 100%;
+  justify-content: center;
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-bottom: 64px;
+  margin-top: 48px;
 
   &_text{
     font-size: 36px;
@@ -134,13 +134,27 @@ body{
   &_border{
     margin-top: 8px;
     border-radius: 50px;
-    width: 100%;
+    width: 90%;
     border-bottom: solid white 4px;
 
     &_inverted{
       @extend .title_border;
       border-color: $red;
     }
+  }
+
+  &_content{
+    margin-bottom: 64px;
+    width: 85%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  &_fixed{
+    width: 98.99vw;
+    background-color: $red;
   }
 }
 
@@ -236,24 +250,58 @@ body{
 }
 
 .inverted{
-  height: 100vh;
   background-color: white;
   padding-top: 32px;
   margin-bottom: 32px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  height: 200vh;
+  margin-top: 256px;
+  position: relative;
 
   &>*{
     color: $red !important;
+  }
+
+
+  &_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    height: 100vh;
+    top: 0px;
   }
 }
 
 .stacks{
   display: flex;
-  flex-direction: column;
   align-items: center;
-  width: 80%;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+  width: 95%;
+
+  &_triggers{
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    height: 200vh;
+    width: 1px;
+  }
+}
+
+
+.stacks_trigger{
+  height: 100vh;
+  width: 2px;
+
+  &:first-child{
+    margin-top: 300px;
+  }
+  &:last-child{
+    margin-bottom: 300px;
+  }
 }
 
 .stack{
@@ -262,7 +310,7 @@ body{
   display: flex;
   flex-direction: row;
   height: 500px;
-  margin-bottom: 10%;
+  margin-top: 10%;
   justify-content: space-between;
 
   &_imgs{
@@ -272,16 +320,22 @@ body{
     &_img{
       transform: translateY(-50%);
       position: absolute;
+      width: 55%;
+      margin-left: 128px;
 
       &:first-child{
-        top: -80px;
+        top: -120px;
         z-index : 10;
       }
       &:nth-child(2){
         z-index: 5;
       }
       &:nth-child(3){
-        top: 80px;
+        top: 120px;
+      }
+
+      &>img{
+        width: 100%;
       }
     }
 

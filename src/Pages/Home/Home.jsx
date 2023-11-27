@@ -1,8 +1,16 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Card from '../../Components/Card'
 import Stack from '../../Components/Stack'
+import React, { useState, useEffect, useRef } from 'react';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 export default function Home(){
+
+    const firstRef = useRef(null);
+    const secondRef = useRef(null);
+    const lastRef = useRef(null);
+
     return(
         <main>
             <nav className='nav'>
@@ -30,8 +38,10 @@ export default function Home(){
                 </div>
             </div>
             <div className='title'>
-                <span className='title_text'>Projets</span>
-                <div className='title_border'></div>
+                <div className='title_content'>
+                    <span className='title_text'>Projets</span>
+                    <div className='title_border'></div>
+                </div>
             </div>
             <div className='projects'>
                 <Card/>
@@ -45,19 +55,35 @@ export default function Home(){
             </div>
             
             <div className='inverted'>
-                <div className='title'>
-                    <span className='title_text_inverted'>Stack</span>
-                    <div className='title_border_inverted'></div>
+                <div className='inverted_container'>
+                    <div className='title'>
+                        <div className='title_content'>
+                            <span className='title_text_inverted'>Stack</span>
+                            <div className='title_border_inverted'></div>
+                        </div>
+                    </div>
+                    <div className='stacks'>
+                        <Stack firstRef={firstRef} secondRef={secondRef} lastRef={lastRef}/>
+                        <div className='title_fixed'>
+                        <div className='title'>
+                            <div className='title_content'>
+                                <span className='title_text'>Projets</span>
+                                <div className='title_border'></div>
+                            </div>
+                        </div>
                 </div>
-                <div className='stacks'>
-                    <Stack/>
+                    </div>
                 </div>
+                <div className='stacks_triggers'>
+                    <div className='stacks_trigger' id='firstTrigger' ref={firstRef}></div>
+                    <div className='stacks_trigger' id='secondTrigger' ref={secondRef}></div>
+                    <div className='stacks_trigger' id='lastTrigger' ref={lastRef}></div>
+                </div>
+                
             </div>
-            <div className='title'>
-                <span className='title_text'>Projets</span>
-                <div className='title_border'></div>
-            </div>
-            <div className='experience'></div>
+            
+
+            <div className="experience"></div>
         </main>
     )
 }
