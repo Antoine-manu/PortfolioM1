@@ -2,7 +2,7 @@ import './App.scss';
 import Home from "./Pages/Home/Home";
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import {faGraduationCap, faPlay} from "@fortawesome/free-solid-svg-icons";
+import {faGraduationCap, faPlay, faPhone, faEnvelope} from "@fortawesome/free-solid-svg-icons";
 import Project from './Pages/Project/Project';
 function App() {
 

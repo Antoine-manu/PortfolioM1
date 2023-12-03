@@ -67,7 +67,7 @@ export default function Home(){
                         <div className='title_fixed'>
                         <div className='title'>
                             <div className='title_content'>
-                                <span className='title_text'>Projets</span>
+                                <span className='title_text'>Experiences</span>
                                 <div className='title_border'></div>
                             </div>
                         </div>
@@ -79,11 +79,85 @@ export default function Home(){
                     <div className='stacks_trigger' id='secondTrigger' ref={secondRef}></div>
                     <div className='stacks_trigger' id='lastTrigger' ref={lastRef}></div>
                 </div>
-                
             </div>
             
+            <div className="experience">
+                <div className='experience_single'>
+                    <div className='experience_single_year'>
+                        <span className='experience_single_year_text'>2020</span>
+                    </div>
+                    <div className='experience_single_content'>
+                        <span className='experience_single_content_title'>1 ère année Bachelor Web, La MANU</span>
+                        <div className='experience_single_content_separator'></div>
+                        <span className='experience_single_content_content'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate augue non mauris blandit, vel ultricies lectus lacinia. Vestibulum hendrerit lorem et quam tincidunt, placerat volutpat leo vestibulum. Proin in scelerisque tortor, et posuere mauris. Sed tristique tortor sed mollis rutrum. In rutrum faucibus condimentum. Mauris odio massa, mattis volutpat placerat vitae, volutpat vitae massa. Donec pellentesque placerat quam sed venenatis</span>
+                    </div>
+                </div>
+                <div className='experience_single'>
+                    <div className='experience_single_year'>
+                        <span className='experience_single_year_text'>2021</span>
+                    </div>
+                    <div className='experience_single_content'>
+                        <span className='experience_single_content_title'>2 ère année Bachelor Web, La MANU / Stage Teleric</span>
+                        <div className='experience_single_content_separator'></div>
+                        <span className='experience_single_content_content'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate augue non mauris blandit, vel ultricies lectus lacinia. Vestibulum hendrerit lorem et quam tincidunt, placerat volutpat leo vestibulum. Proin in scelerisque tortor, et posuere mauris. Sed tristique tortor sed mollis rutrum. In rutrum faucibus condimentum. Mauris odio massa, mattis volutpat placerat vitae, volutpat vitae massa. Donec pellentesque placerat quam sed venenatis</span>
+                    </div>
+                </div>
+                <div className='experience_single'>
+                    <div className='experience_single_year'>
+                        <span className='experience_single_year_text'>2022</span>
+                    </div>
+                    <div className='experience_single_content'>
+                        <span className='experience_single_content_title'>3 ère année Bachelor Web, La MANU / Alternance  Codecodex</span>
+                        <div className='experience_single_content_separator'></div>
+                        <span className='experience_single_content_content'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate augue non mauris blandit, vel ultricies lectus lacinia. Vestibulum hendrerit lorem et quam tincidunt, placerat volutpat leo vestibulum. Proin in scelerisque tortor, et posuere mauris. Sed tristique tortor sed mollis rutrum. In rutrum faucibus condimentum. Mauris odio massa, mattis volutpat placerat vitae, volutpat vitae massa. Donec pellentesque placerat quam sed venenatis</span>
+                    </div>
+                </div>
+                <div className='experience_single'>
+                    <div className='experience_single_year'>
+                        <span className='experience_single_year_text'>2023</span>
+                    </div>
+                    <div className='experience_single_content'>
+                        <span className='experience_single_content_title'>1 ère année Mastere Ingénierie du Web, ESGI / Alternance  Codecodex </span>
+                        <div className='experience_single_content_separator'></div>
+                        <span className='experience_single_content_content'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate augue non mauris blandit, vel ultricies lectus lacinia. Vestibulum hendrerit lorem et quam tincidunt, placerat volutpat leo vestibulum. Proin in scelerisque tortor, et posuere mauris. Sed tristique tortor sed mollis rutrum. In rutrum faucibus condimentum. Mauris odio massa, mattis volutpat placerat vitae, volutpat vitae massa. Donec pellentesque placerat quam sed venenatis</span>
+                    </div>
+                </div>
+                <div className='experience_next'></div>
+                <div className='experience_next'></div>
+            </div>
 
-            <div className="experience"></div>
+            <div className='contact'>
+                <div className='title'>
+                    <div className='title_content'>
+                        <span className='title_text'>Contact</span>
+                        <div className='title_border'></div>
+                    </div>
+                </div>
+                <div className="contact_container">
+                    <div className="contact_container_item">
+                        <div className='contact_container_item_icon'>
+                            <img src="/phone.svg" alt="" />
+                        </div>
+                        <div className="contact_container_item_content">06 78 23 38 21</div>
+                    </div>
+                    <div className="contact_container_item">
+                        <div className='contact_container_item_icon'>
+                            <img src="/envelope.svg" alt="" />
+                        </div>
+                        <div className="contact_container_item_content">antoinegd60420@gmail.com</div>
+                    </div>
+                    <div className="contact_container_item">
+                        <div className='contact_container_item_icon'>
+                            <img src="/linkedin.svg" alt="" />
+                        </div>
+                    </div>
+                    <div className="contact_container_item">
+                        <div className='contact_container_item_icon'>
+                            <img src="/malt.svg" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
     )
 }
