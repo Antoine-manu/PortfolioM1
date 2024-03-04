@@ -7,48 +7,20 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // https://codepen.io/snorkltv/pen/RwYdVyK
 // https://gsap.com/community/forums/topic/37168-scrolltrigger-pin-an-element-and-change-that-elements-content-on-scroll/
 // Sur le coté une div avec 3 div a 1000px chacune, la stack fixe et je declenche js quand on passe dans l'autre div
-export default function Card({ firstRef, secondRef, lastRef }){
+export default function Card(){
     const [active, setActive] = useState(0);
     
     const elementRef = useRef(null);
-
     useEffect(() => {
-        gsap.registerPlugin(ScrollTrigger);
-    
-        ScrollTrigger.create({
-          trigger: firstRef.current,
-          start: 'top top',
-          end: 'bottom bottom',
-          onEnterBack: () => {
-            setActive(0);
-          },
-          onLeave: () => {
-            setActive(1)
-          },
-        })
-        ScrollTrigger.create({
-          trigger: secondRef.current,
-          start: 'top top',
-          end: 'bottom bottom',
-          onEnterBack: () => {
-            setActive(1);
-          },
-          onLeave: () => {
-            setActive(2);
-          },
-        })
-        ScrollTrigger.create({
-          trigger: lastRef.current,
-          start: 'top top',
-          end: 'bottom bottom',
-          onEnterBack: () => {
-            setActive(2);
-          },
-          onLeave: () => {
-            console.log('6');
-          },
-        })
-      }, []);
+        console.log('oui')
+        const elements = document.querySelectorAll('.highlight');
+
+        elements.forEach(element => {
+            console.log(element)
+            element.classList.remove('highlight');
+            element.classList.add('highlight');
+        });
+    }, [active]);
 
     return(
         <div className='stack' ref={elementRef}>
@@ -56,9 +28,11 @@ export default function Card({ firstRef, secondRef, lastRef }){
                 <div className='stack_imgs_img'>
                     {active === 0  ?
                         <img style={{cursor: 'pointer'}} className='stack_animate'  src="/stack_open.svg" alt="" />
+
                     :
                         <img onClick={() => setActive(0)} style={{cursor: 'pointer'}} className='stack_animate_default' src="/stack_close.svg" alt="" />
                     }
+                    <div onClick={() => setActive(0)} className={active === 0 ? "stack_imgs_img_pointer-active " : "stack_imgs_img_pointer highlight" }></div>
                 </div>
                 <div className='stack_imgs_img'>
                     {active === 1  ?
@@ -66,6 +40,7 @@ export default function Card({ firstRef, secondRef, lastRef }){
                         :
                         <img onClick={() => setActive(1)}  style={{cursor: 'pointer'}} className='stack_animate_default' src="/stack_close.svg" alt="" />
                     }
+                    <div onClick={() => setActive(1)} className={active === 1 ? "stack_imgs_img_pointer-active " : "stack_imgs_img_pointer highlight" }></div>
                 </div>
                 <div className='stack_imgs_img'>
                     {active === 2  ?
@@ -73,6 +48,7 @@ export default function Card({ firstRef, secondRef, lastRef }){
                         :
                         <img onClick={() => setActive(2)} style={{cursor: 'pointer'}} className='stack_animate_default' src="/stack_close.svg" alt="" />
                     }
+                    <div onClick={() => setActive(2)} className={active === 2 ? "stack_imgs_img_pointer-active " : "stack_imgs_img_pointer highlight" }></div>
                 </div>
             </div>
             {/*{active === 0 ?
@@ -87,7 +63,7 @@ export default function Card({ firstRef, secondRef, lastRef }){
 
             {active === 0  ?
                 <div className='stack_info'>
-                    <span className='stack_info_title'>design</span>
+                    <span className='stack_info_title'>Front end</span>
                     <div className='stack_info_items'>
                         <div className='stack_info_items_item'>
                             <img className='stack_info_items_item_img' src="/techs/react.svg" alt=""/>
@@ -95,59 +71,59 @@ export default function Card({ firstRef, secondRef, lastRef }){
                         </div>
                         <div className='stack_info_items_item'>
                             <img className='stack_info_items_item_img' src="/techs/react.svg" alt=""/>
-                            <span className='stack_info_items_item_title'>React</span>
+                            <span className='stack_info_items_item_title'>GSAP</span>
                         </div>
                         <div className='stack_info_items_item'>
                             <img className='stack_info_items_item_img' src="/techs/react.svg" alt=""/>
-                            <span className='stack_info_items_item_title'>React</span>
+                            <span className='stack_info_items_item_title'>HTML/CSS/JS</span>
                         </div>
                         <div className='stack_info_items_item'>
                             <img className='stack_info_items_item_img' src="/techs/react.svg" alt=""/>
-                            <span className='stack_info_items_item_title'>React</span>
+                            <span className='stack_info_items_item_title'>Jquery</span>
                         </div>
                     </div>
                 </div>
                 : active === 1 ?
                     <div className='stack_info'>
-                        <span className='stack_info_title'>front end</span>
+                        <span className='stack_info_title'>Back end</span>
                         <div className='stack_info_items'>
                             <div className='stack_info_items_item'>
                                 <img className='stack_info_items_item_img' src="/techs/react.svg" alt=""/>
-                                <span className='stack_info_items_item_title'>OUI</span>
+                                <span className='stack_info_items_item_title'>PHP</span>
                             </div>
                             <div className='stack_info_items_item'>
                                 <img className='stack_info_items_item_img' src="/techs/react.svg" alt=""/>
-                                <span className='stack_info_items_item_title'>OUI</span>
+                                <span className='stack_info_items_item_title'>Symfony / Laravel</span>
                             </div>
                             <div className='stack_info_items_item'>
                                 <img className='stack_info_items_item_img' src="/techs/react.svg" alt=""/>
-                                <span className='stack_info_items_item_title'>OUI</span>
+                                <span className='stack_info_items_item_title'>Node.JS</span>
                             </div>
                             <div className='stack_info_items_item'>
                                 <img className='stack_info_items_item_img' src="/techs/react.svg" alt=""/>
-                                <span className='stack_info_items_item_title'>OUI</span>
+                                <span className='stack_info_items_item_title'>SQL/MongoDB</span>
                             </div>
                         </div>
                     </div>
                     :
                     <div className='stack_info'>
-                        <span className='stack_info_title'>back end</span>
+                        <span className='stack_info_title'>Design</span>
                         <div className='stack_info_items'>
                             <div className='stack_info_items_item'>
                                 <img className='stack_info_items_item_img' src="/techs/react.svg" alt=""/>
-                                <span className='stack_info_items_item_title'>NON</span>
+                                <span className='stack_info_items_item_title'>Design d'application</span>
                             </div>
                             <div className='stack_info_items_item'>
                                 <img className='stack_info_items_item_img' src="/techs/react.svg" alt=""/>
-                                <span className='stack_info_items_item_title'>NON</span>
+                                <span className='stack_info_items_item_title'>Responsive dynamique</span>
                             </div>
                             <div className='stack_info_items_item'>
                                 <img className='stack_info_items_item_img' src="/techs/react.svg" alt=""/>
-                                <span className='stack_info_items_item_title'>NON</span>
+                                <span className='stack_info_items_item_title'>Mise en place d'animations</span>
                             </div>
                             <div className='stack_info_items_item'>
                                 <img className='stack_info_items_item_img' src="/techs/react.svg" alt=""/>
-                                <span className='stack_info_items_item_title'>NON</span>
+                                <span className='stack_info_items_item_title'>Design system</span>
                             </div>
                         </div>
                     </div>

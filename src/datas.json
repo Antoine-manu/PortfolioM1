@@ -1,0 +1,377 @@
+
+[
+  {
+    "title" : "Posidea",
+    "desc" : "Création d'un site vitrine pour l'entreprise Posidea afin de mettre en avant leurs experience UI/UX",
+    "mainImage" : "posidea",
+    "year" : 2024,
+    "icons" : [
+      "fa-window-restore",
+      "fa-code"
+    ],
+    "type" : "Front-End / Back-End",
+    "obj" : [
+      "Faire un site vitrine conforme aux maquettes fournies",
+      "Avoir un site conforme aux normes de SEO afin de maximiser le trafic vers le site",
+      "Rendre l'application dynamique",
+      "Créer le back office permettant a l'entreprise d'alimenter le site et de changer certains points"
+    ],
+    "role" : [
+      "Intégration des maquettes fournies par Posidea",
+      "Création du back-office et de la base de données du site",
+      "Dynamiser le site avec GSAP pour faire des animations aux chargement etc",
+      "Ajout des normes SEO et de captcha pour eviter le SPAM"
+    ],
+    "primaryFont" : "Clash Display",
+    "secondaryFont" : "Satoshi",
+    "colors" : [
+      {
+        "color" : "#FFD402",
+        "text" : "white"
+      },{
+        "color" : "#455A64",
+        "text" : "white"
+      },{
+        "color" : "#1D1E1B",
+        "text" : "white"
+      },{
+        "color" : "#FFFFFF",
+        "text" : "black"
+      }
+    ],
+    "images" : [
+      "Capture d’écran 2024-03-04 à 11.58.30",
+      "Capture d’écran 2024-03-04 à 11.59.21",
+      "Capture d’écran 2024-03-04 à 11.59.32",
+      "Capture d’écran 2024-03-04 à 12.00.01"
+    ]
+  },
+  {
+    "title" : "Ternel",
+    "year" : "2023",
+    "desc" : "Création d'une application pour une entreprise de couvreurs afin de gerer leurs employés et les staffing a venir (ERP)",
+    "mainImage" : "ternel",
+    "icons" : [
+      "fa-window-restore",
+      "fa-code",
+      "fa-object-ungroup"
+    ],
+    "type" : "Front-End / Back-End / Design",
+    "obj" : [
+      "Designer l'application et créer une identité visuelle complète",
+      "Permettre a l'entreprise de gerer son personnel sur X semaines",
+      "Création d'une application mobile pour les employés et d'un BO",
+      "Ajouter les options classique d'un ERP"
+    ],
+    "role" : [
+      "Design de l'application",
+      "Intégration de l'application",
+      "Développement de l'application sur la partie Back",
+      "Maintenance de l'application et dévelopement des améliorations"
+    ],
+    "primaryFont" : "Open Sans",
+    "secondaryFont" : "Montserrat",
+    "colors" : [
+      {
+        "color" : "#109548",
+        "text" : "white"
+      },{
+        "color" : "#0b8840",
+        "text" : "white"
+      },{
+        "color" : "#1D1E1B",
+        "text" : "white"
+      },{
+        "color" : "#FFFFFF",
+        "text" : "black"
+      }
+    ],
+    "images" : [
+      "Capture d’écran 2024-01-02 à 10.10.25",
+      "Capture d’écran 2024-01-02 à 10.12.38",
+      "Capture d’écran 2024-01-02 à 10.13.27",
+      "Capture d’écran 2024-01-02 à 10.13.40",
+      "Capture d’écran 2024-01-02 à 10.13.50"
+    ]
+  },
+  {
+    "title" : "Phoenix finance",
+    "year" : "2022-2023",
+    "desc" : "Création d'une application de gestion de taches et des dossier en cours pour une entreprise de comptables. ",
+    "mainImage" : "phoenix",
+    "icons" : [
+      "fa-window-restore",
+      "fa-code",
+      "fa-object-ungroup"
+    ],
+    "type" : "Front-End / Back-End / Design",
+    "obj" : [
+      "Fournir au client des maquettes en accord avec son besoin",
+      "Créer une charte graphique pour le client",
+      "Développer une application en adéquation avec leurs besoins",
+      "Permettre au client de gagner du temps sur leurs taches"
+    ],
+    "role" : [
+      "Création de l'identité visuelle et des maquettes de l'application",
+      "Intégration de l'application",
+      "Développement de la partie Back-End du site",
+      "Maintenance des erreurs de comprehension et de développement"
+    ],
+    "primaryFont" : "Aktiv",
+    "secondaryFont" : "Montserrat",
+    "colors" : [
+      {
+        "color" : "#477bfd",
+        "text" : "white"
+      },{
+        "color" : "#0b1431",
+        "text" : "white"
+      },{
+        "color" : "#1D1E1B",
+        "text" : "white"
+      },{
+        "color" : "#FFFFFF",
+        "text" : "black"
+      }
+    ],
+    "images" : [
+      "Capture d’écran 2024-01-02 à 10.03.49",
+      "Capture d’écran 2024-01-02 à 10.04.36",
+      "Capture d’écran 2024-01-02 à 10.05.56",
+      "Capture d’écran 2024-01-02 à 10.06.22"
+    ]
+  },
+  {
+    "title" : "Neurobase",
+    "year" : "2024",
+    "desc" : "Création d'une application pour neuro-psychatre visant a les aider lors de leurs entretiens pour préparer les rendez-vous avec les patients",
+    "mainImage" : "neurobase",
+    "icons" : [
+      "fa-window-restore",
+      "fa-object-ungroup"
+    ],
+    "type" : "Front-End / Design",
+    "obj" : [
+      "Rendre l'application existante plus UX et reprendre l'UI actuelle",
+      "Faire une applicaiton en React fluide",
+      "Création d'une API Rest complete pour l'application",
+      "Mise en place de collaboration en temps réel sur l'application",
+      "Ajout de fonctionnalitée avec l'IA sur l'application"
+    ],
+    "role" : [
+      "Reprise des maquettes fournies par le client",
+      "Intégration a l'aide de React.JS de l'application",
+      "Connection de l'application a l'API",
+      "Mise en place d'animation pour la fluidité de l'application avec GSAP"
+    ],
+    "primaryFont" : "DM Sans",
+    "secondaryFont" : "DM Sans",
+    "colors" : [
+      {
+        "color" : "#6C63FF",
+        "text" : "white"
+      },{
+        "color" : "#E2E0FF",
+        "text" : "white"
+      },{
+        "color" : "#1D1E1B",
+        "text" : "white"
+      },{
+        "color" : "#FFFFFF",
+        "text" : "black"
+      }
+    ],
+    "images" : [
+      "Capture d’écran 2024-03-04 à 16.27.46",
+      "Capture d’écran 2024-03-04 à 16.27.56",
+      "Capture d’écran 2024-03-04 à 16.28.14",
+      "Capture d’écran 2024-03-04 à 16.29.33"
+    ]
+  },
+  {
+    "title" : "Alveus",
+    "year" : "2022-2023",
+    "desc" : "Maintenance et dévleoppement d'évolution sur le site Alveus mettant en relation des tuteurs et des élèves pour des cours particuliers",
+    "mainImage" : "alveus",
+    "icons" : [
+      "fa-window-restore",
+      "fa-code"
+    ],
+    "type" : "Front-End / Back-End / TMA",
+    "obj" : [
+      "Avoir une application cohérente avec la demande client",
+      "Maintenance de l'application",
+      "Reflection sur les possibles évolutions de l'application"
+    ],
+    "role" : [
+      "Création de maquette sur les possibles evolutions",
+      "Ajout d'une partie cours a distance sur l'application",
+      "Maintenance de quelques points de l'application"
+    ],
+    "primaryFont" : "Noticia",
+    "secondaryFont" : "Avenir",
+    "colors" : [
+      {
+        "color" : "#ffa801",
+        "text" : "white"
+      },{
+        "color" : "#071f3b",
+        "text" : "white"
+      },{
+        "color" : "#1D1E1B",
+        "text" : "white"
+      },{
+        "color" : "#FFFFFF",
+        "text" : "black"
+      }
+    ],
+    "images" : [
+      "Capture d’écran 2024-01-02 à 10.16.41",
+      "Capture d’écran 2024-01-02 à 10.17.06",
+      "Capture d’écran 2024-01-02 à 10.35.29 (1)",
+      "Capture d’écran 2024-01-02 à 10.35.36",
+      "Capture d’écran 2024-01-02 à 10.35.55"
+    ]
+  },
+  {
+    "title" : "Home2Air",
+    "year" : "2022",
+    "desc" : "Création d'un ensemble d'applications pour gerer des capteurs dans le cadre de mon projet de fin d'etudes (Bachelor BAC +3)",
+    "mainImage" : "home2air",
+    "icons" : [
+      "fa-window-restore",
+      "fa-code",
+      "fa-object-ungroup"
+    ],
+    "type" : "Front-End / Design / Back-End",
+    "obj" : [
+      "Création d'un capteur visant a analyser la qualité de l'air",
+      "Créer un ensemble d'application Mobile/Desktop et Web en utilisant React / React Native et Electron.JS",
+      "Création d'une API Rest complete pour l'application",
+      "Mise en place de differents services externe sur l'application (météo, géolocalisation, etc..)"
+    ],
+    "role" : [
+      "Design complet des application sur les 3 couches",
+      "Intégration des 3 couches",
+      "Connection des applications a l'API",
+      "Développement de l'API avec les bonnes pratiques REST"
+    ],
+    "primaryFont" : "Open Sans",
+    "secondaryFont" : "Montserrat",
+    "colors" : [
+      {
+        "color" : "#036DDF",
+        "text" : "white"
+      },{
+        "color" : "#0b1431",
+        "text" : "white"
+      },{
+        "color" : "#1D1E1B",
+        "text" : "white"
+      },{
+        "color" : "#FFFFFF",
+        "text" : "black"
+      }
+    ],
+    "images" : [
+      "Capture d’écran 2023-08-01 à 17.16.38 (1)",
+      "Capture d’écran 2023-08-02 à 09.17.53 (1)",
+      "Capture d’écran 2023-08-02 à 09.20.14 (1)",
+      "Capture d’écran 2023-08-02 à 09.42.08"
+    ]
+  },
+  {
+    "title" : "Codecodex",
+    "year" : "2024",
+    "desc" : "Création du site vitrine de mon entreprise Codecodex pour mettre en avant l'agence",
+    "mainImage" : "codecodex",
+    "icons" : [
+      "fa-window-restore",
+      "fa-code",
+      "fa-object-ungroup"
+    ],
+    "type" : "Front-End / Design",
+    "obj" : [
+      "Designer le site de l'agence",
+      "Mettre en avant les qualité de l'agence et les retranscrire dans le design",
+      "Intégrer le site en respectant les normes SEO",
+      "Dynamiser l'application avec des animations GSAP"
+    ],
+    "role" : [
+      "Créer le design du site",
+      "Alimenter le site avec les projets créer par l'agence",
+      "Mettre en place les normes SEO sur le site",
+      "Developper le site"
+    ],
+    "primaryFont" : "Open Sans",
+    "secondaryFont" : "Open Sans",
+    "colors" : [
+      {
+        "color" : "#407BFF",
+        "text" : "white"
+      },{
+        "color" : "#8FB2FF",
+        "text" : "white"
+      },{
+        "color" : "#1D1E1B",
+        "text" : "white"
+      },{
+        "color" : "#FFFFFF",
+        "text" : "black"
+      }
+    ],
+    "images" : [
+      "Capture d’écran 2024-03-04 à 18.30.01",
+      "Capture d’écran 2024-03-04 à 18.30.12",
+      "Capture d’écran 2024-03-04 à 18.30.25",
+      "Capture d’écran 2024-03-04 à 18.30.36"
+    ]
+  },
+  {
+    "title" : "Inception (Portefolio)",
+    "year" : "2024",
+    "desc" : "Création d'un portefolio dans le but de taper dans l'oeil des recruteurs",
+    "mainImage" : "folio",
+    "icons" : [
+      "fa-window-restore",
+      "fa-code",
+      "fa-object-ungroup"
+    ],
+    "type" : "Front-End / Design",
+    "obj" : [
+      "Rendre mon profil attractif envers les recruteurs",
+      "Montrer mon experience a travers mes projets passés",
+      "Créer un profolio original et personnel",
+      "Faire une petite blague comme il me manquait un projet pertinent pour en avoir 8"
+    ],
+    "role" : [
+      "Poursuivre le développement de projet pour alimenter le portefolio",
+      "Intégrer une entreprise me permettant de resoudre la ligne 1",
+      "Apprendre a utiliser de nouvelles technologies pour etendre ma Stack",
+      "Terminer mes études et être embauché chez vous"
+    ],
+    "primaryFont" : "DM Sans",
+    "secondaryFont" : "DM Sans",
+    "colors" : [
+      {
+        "color" : "#FF5943",
+        "text" : "white"
+      },{
+        "color" : "#FFD341",
+        "text" : "white"
+      },{
+        "color" : "#1D1E1B",
+        "text" : "white"
+      },{
+        "color" : "#FFFFFF",
+        "text" : "black"
+      }
+    ],
+    "images" : [
+      "Capture d’écran 2024-03-04 à 18.11.57",
+      "Capture d’écran 2024-03-04 à 18.12.12",
+      "Capture d’écran 2024-03-04 à 18.12.22",
+      "Capture d’écran 2024-03-04 à 18.12.29"
+    ]
+  }
+]
