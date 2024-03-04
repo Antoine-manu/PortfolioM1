@@ -46,16 +46,16 @@ export default function Project(){
                         <div className="project-me-left">
                             <span className="project-me-title">Objectifs</span>
                             <ul className="project-me-list">
-                                {project.obj.map(objectif => (
-                                    <li>{objectif}</li>
+                                {project.obj.map((objectif, index) => (
+                                    <li key={index}>{objectif}</li>
                                 ))}
                             </ul>
                         </div>
                         <div className="project-me-right">
                             <span className="project-me-title">Mon role</span>
                             <ul className="project-me-list">
-                                {project.role.map(role => (
-                                    <li>{role}</li>
+                                {project.role.map((role, index) => (
+                                    <li key={index}>{role}</li>
                                 ))}
                             </ul>
                         </div>
@@ -80,8 +80,8 @@ export default function Project(){
                     </div>
                 </div>
                 <div className="project-cg-right">
-                    {project.colors.map(color => (
-                        <div style={{color: color.text, backgroundColor: color.color}}>{color.color}</div>
+                    {project.colors.map((color, index) => (
+                        <div key={index} style={{color: color.text, backgroundColor: color.color}}>{color.color}</div>
                     ))}
                 </div>
             </div>
@@ -92,8 +92,8 @@ export default function Project(){
                 </div>
             </div>
             <div className="project-gallery">
-                {project.images.map(image => (
-                    <img src={"/projects/" + image + '.png'} alt=""/>
+                {project.images.map((image, index) => (
+                    <img key={index} src={"/projects/" + image + '.png'} alt=""/>
                 ))}
             </div>
         </div>
