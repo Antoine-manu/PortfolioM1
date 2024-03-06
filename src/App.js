@@ -21,7 +21,7 @@ function App() {
       element: <Home/>
     },
     {
-      path: "/projects/:id",
+      path: "/PortfolioM1/projects/:id",
       element: <Project/>
     },
     {

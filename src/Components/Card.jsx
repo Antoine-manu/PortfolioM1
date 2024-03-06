@@ -17,7 +17,7 @@ export default function Card({project, index}){
                 <span className='projects_card_content_text'>{project.desc}</span>
             </div>
             <div className='projects_card_btn'>
-                <Link to={'/projects/' + index}>
+                <Link to={'/PortfolioM1/projects/' + index}>
                 <FontAwesomeIcon size='xl' className='projects_card_btn_icon' icon="fa-solid fa-eye" />
                 </Link>
             </div>
