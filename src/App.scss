@@ -305,6 +305,18 @@ body{
       width: 55%;
       margin-left: 128px;
 
+      &_line{
+        width: 100%;
+        position: absolute;
+        right: 0;
+        transform: translateX(90%);
+        height: 1px;
+        border-bottom: dashed 6px $red-secondary;
+        border-radius: 8px;
+        top: 49%;
+        z-index: -100;
+      }
+
       &_pointer{
         width: 16px;
         height: 16px;
@@ -314,11 +326,15 @@ body{
         border-radius: 32px;
         top: 50%;
         left: -64px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         position: absolute;
         transform: translateY(-50%);
         &-active{
           @extend .stack_imgs_img_pointer;
           background-color: white;
+          color: $red;
         }
       }
 
@@ -351,6 +367,7 @@ body{
 
   &_info{
     background-color: $red-secondary;
+    z-index: 12;
     width: 40%;
     height: 100%;
     padding: 24px;
@@ -359,10 +376,36 @@ body{
     flex-direction: column;
     align-items: flex-start;
 
+    &_head{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      &>span{
+        padding-top: 12px;
+        color: #bb392c;
+        padding-bottom: 16px;
+        width: 33.33%;
+        text-align: center;
+        border-left: solid white 2px;
+        cursor: pointer;
+      }
+
+      &>span:first-child{
+        border: none;
+      }
+    }
+
     &_title{
       text-transform: uppercase;
       font-size: 24px;
       font-family: "integralcfHeavy";
+
+      &_active{
+        background-color: $red;
+        color: white !important;
+      }
     }
 
     &_items{
@@ -631,6 +674,12 @@ body{
         margin-top: 24px;
         font-size: 20px;
       }
+      &-type{
+        margin-top: 24px;
+        font-size: 18px;
+        color: $yellow;
+        text-transform: uppercase;
+      }
       &-icons{
         margin-top: 24px;
         display: flex;
@@ -725,8 +774,9 @@ body{
         height: 43%;
         display: flex;
         align-items: center;
+        text-transform: uppercase;
+        font-weight: bold;
         justify-content: center;
-        font-family: "integralcfHeavy";
         font-size: 20px;
       }
     }
@@ -854,7 +904,8 @@ body{
     }
 
     &_info{
-      width: 80%;
+      width: 90%;
+      padding-right: 24px;
     }
   }
   .experience-lane > div {
@@ -916,5 +967,28 @@ body{
   .project-gallery > img {
     width: 100%;
     margin-bottom: 32px;
-}
+  }
+  .stack_imgs{
+  display: none;
+  }
+  .stack_info_title {
+    font-size: 18px;
+  }
+
+  .stack_info_items_item {
+    margin-bottom: 16px;
+
+    &_title{
+      font-size: 16px;
+    }
+  }
+  .title_content {
+    margin-bottom: 8px;
+  }
+  .stack_info_head > span {
+    height: 40px;
+  }
+  .projects {
+    width: 95%;
+  }
 }

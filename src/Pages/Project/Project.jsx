@@ -16,7 +16,7 @@ export default function Project(){
     return(
         <div className='project'>
             <Link className="project-return" to='/'>
-                <FontAwesomeIcon icon="fa-solid fa-circle-chevron-left" size={"xl"} color={"white"} />
+                <FontAwesomeIcon icon="fa-solid fa-circle-chevron-left" size={"2xl"} color={"white"} />
             </Link>
             <div className="project-head">
                 <div className="project-head-img">
@@ -25,6 +25,7 @@ export default function Project(){
                 <div className="project-head-text">
                     <span className="project-head-text-title">{project.title}</span>
                     <span className="project-head-text-subtitle">{project.desc}</span>
+                    <span className='project-head-text-type'>{project.type}</span>
                     <div className="project-head-text-icons">
                         {project.icons.map(icon => (
                             <div className='main_content_badge_icon'>

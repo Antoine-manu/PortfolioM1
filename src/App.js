@@ -8,13 +8,13 @@ import {
   faPhone,
   faEnvelope,
   faChevronCircleLeft,
-  faWindowRestore, faCode, faObjectUngroup, faEye
+  faWindowRestore, faCode, faObjectUngroup, faEye, faChevronCircleRight, faChevronRight
 } from "@fortawesome/free-solid-svg-icons";
 import Project from './Pages/Project/Project';
 import Login from "./Pages/Login/Login";
 function App() {
 
-  library.add(faGraduationCap, faPlay, faChevronCircleLeft, faWindowRestore, faCode, faObjectUngroup, faEye);
+  library.add(faGraduationCap, faPlay, faChevronCircleLeft, faWindowRestore, faCode, faObjectUngroup, faEye, faChevronRight);
   const router = createBrowserRouter([
     {
       path: "*",
