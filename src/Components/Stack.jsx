@@ -106,20 +106,20 @@ export default function Card(){
                         </div>
                         <div className='stack_info_items'>
                             <div className='stack_info_items_item'>
-                                <img className='stack_info_items_item_img' src="https://antoine-manu.github.io/PortfolioM1/techs/php01-svgrepo-com.svg" alt=""/>
-                                <span className='stack_info_items_item_title'>PHP</span>
-                            </div>
-                            <div className='stack_info_items_item'>
-                                <img className='stack_info_items_item_img' src="https://antoine-manu.github.io/PortfolioM1/techs/symfony-svgrepo-com.svg" alt=""/>
-                                <span className='stack_info_items_item_title'>Symfony / Laravel</span>
-                            </div>
-                            <div className='stack_info_items_item'>
                                 <img className='stack_info_items_item_img' src="https://antoine-manu.github.io/PortfolioM1/techs/nodejs02-svgrepo-com.svg" alt=""/>
                                 <span className='stack_info_items_item_title'>Node.JS</span>
                             </div>
                             <div className='stack_info_items_item'>
                                 <img className='stack_info_items_item_img' src="https://antoine-manu.github.io/PortfolioM1/techs/sql-svgrepo-com.svg" alt=""/>
                                 <span className='stack_info_items_item_title'>SQL/MongoDB</span>
+                            </div>
+                            <div className='stack_info_items_item'>
+                                <img className='stack_info_items_item_img' src="https://antoine-manu.github.io/PortfolioM1/techs/php01-svgrepo-com.svg" alt=""/>
+                                <span className='stack_info_items_item_title'>PHP</span>
+                            </div>
+                            <div className='stack_info_items_item'>
+                                <img className='stack_info_items_item_img' src="https://antoine-manu.github.io/PortfolioM1/techs/symfony-svgrepo-com.svg" alt=""/>
+                                <span className='stack_info_items_item_title'>Symfony / Laravel</span>
                             </div>
                         </div>
                     </div>
