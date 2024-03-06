@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/PortfolioM1/static/css/main.b2394575.css",
-    "main.js": "/PortfolioM1/static/js/main.83702029.js",
+    "main.js": "/PortfolioM1/static/js/main.973c9f4b.js",
     "static/js/787.7da95b79.chunk.js": "/PortfolioM1/static/js/787.7da95b79.chunk.js",
     "static/media/Oceanwide-Semibold.otf": "/PortfolioM1/static/media/Oceanwide-Semibold.d05ca9be69950ee6e118.otf",
     "static/media/Fontspring-DEMO-integralcf-heavy.otf": "/PortfolioM1/static/media/Fontspring-DEMO-integralcf-heavy.71e05361e2e71031bb94.otf",
     "index.html": "/PortfolioM1/index.html",
     "main.b2394575.css.map": "/PortfolioM1/static/css/main.b2394575.css.map",
-    "main.83702029.js.map": "/PortfolioM1/static/js/main.83702029.js.map",
+    "main.973c9f4b.js.map": "/PortfolioM1/static/js/main.973c9f4b.js.map",
     "787.7da95b79.chunk.js.map": "/PortfolioM1/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b2394575.css",
-    "static/js/main.83702029.js"
+    "static/js/main.973c9f4b.js"
   ]
 }
