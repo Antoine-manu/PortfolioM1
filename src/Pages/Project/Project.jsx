@@ -15,7 +15,7 @@ export default function Project(){
 
     return(
         <div className='project'>
-            <Link className="project-return" to='/'>
+            <Link className="project-return" to='/PortfolioM1/'>
                 <FontAwesomeIcon icon="fa-solid fa-circle-chevron-left" size={"2xl"} color={"white"} />
             </Link>
             <div className="project-head">
