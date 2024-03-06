@@ -1003,4 +1003,12 @@ body{
   main{
     width: 1980px;
   }
+  #root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .project{
+    width: 1980px;
+  }
 }
