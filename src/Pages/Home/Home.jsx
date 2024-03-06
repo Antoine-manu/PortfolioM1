@@ -32,7 +32,7 @@ export default function Home(){
                     <span className='main_content_text'>Apprennez-en plus sur moi et sur les <br/> projets sur lesquels j'ai travaillé.</span>
                 </div>
                 <div className='main_img'>
-                    <img src="/image.svg" alt=""/>
+                    <img src="https://antoine-manu.github.io/PortfolioM1/image.svg" alt=""/>
                 </div>
             </div>
             <div className='title' id="projects">
@@ -78,24 +78,24 @@ export default function Home(){
                 <div className="contact_container">
                     <div className="contact_container_item">
                         <div className='contact_container_item_icon'>
-                            <img src="/phone.svg" alt="" />
+                            <img src="https://antoine-manu.github.io/PortfolioM1/phone.svg" alt="" />
                         </div>
                         <div className="contact_container_item_content">06 78 23 38 21</div>
                     </div>
                     <div className="contact_container_item">
                         <div className='contact_container_item_icon'>
-                            <img src="/envelope.svg" alt="" />
+                            <img src="https://antoine-manu.github.io/PortfolioM1/envelope.svg" alt="" />
                         </div>
                         <div className="contact_container_item_content">antoinegd60420@gmail.com</div>
                     </div>
                     <div className="contact_container_item">
                         <a target="_blank" href="https://www.linkedin.com/in/antoine-gaudry-8b24251b9/" className='contact_container_item_icon'>
-                            <img src="/linkedin.svg" alt="" />
+                            <img src="https://antoine-manu.github.io/PortfolioM1/linkedin.svg" alt="" />
                         </a>
                     </div>
                     <div className="contact_container_item">
                         <a target="_blank" href="https://www.malt.fr/profile/antoinegaudry?q=Antoine+Gaudry&sourceComponent=home_unlogged&searchid=65e5f0fda81bfa068cc64b41" className='contact_container_item_icon'>
-                            <img src="/malt.svg" alt="" />
+                            <img src="https://antoine-manu.github.io/PortfolioM1/malt.svg" alt="" />
                         </a>
                     </div>
                 </div>

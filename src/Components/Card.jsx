@@ -10,7 +10,7 @@ export default function Card({project, index}){
                 <span className='projects_card_head_type'>{project.type}</span>
             </div>
             <div className='projects_card_img'>
-                <img src={"/projects/" + project.mainImage + '.png'} alt="" />
+                <img src={"https://antoine-manu.github.io/PortfolioM1/projects/" + project.mainImage + '.png'} alt="" />
             </div>
             <div className='projects_card_content'>
                 <span className='projects_card_content_title'>{project.title}</span>

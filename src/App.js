@@ -17,7 +17,7 @@ function App() {
   library.add(faGraduationCap, faPlay, faChevronCircleLeft, faWindowRestore, faCode, faObjectUngroup, faEye);
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: "*",
       element: <Home/>
     },
     {

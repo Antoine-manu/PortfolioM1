@@ -27,26 +27,26 @@ export default function Card(){
             <div className='stack_imgs'>
                 <div className='stack_imgs_img'>
                     {active === 0  ?
-                        <img style={{cursor: 'pointer'}} className='stack_animate'  src="/stack_open.svg" alt="" />
+                        <img style={{cursor: 'pointer'}} className='stack_animate'  src="https://antoine-manu.github.io/PortfolioM1/stack_open.svg" alt="" />
 
                     :
-                        <img onClick={() => setActive(0)} style={{cursor: 'pointer'}} className='stack_animate_default' src="/stack_close.svg" alt="" />
+                        <img onClick={() => setActive(0)} style={{cursor: 'pointer'}} className='stack_animate_default' src="https://antoine-manu.github.io/PortfolioM1/stack_close.svg" alt="" />
                     }
                     <div onClick={() => setActive(0)} className={active === 0 ? "stack_imgs_img_pointer-active " : "stack_imgs_img_pointer highlight" }></div>
                 </div>
                 <div className='stack_imgs_img'>
                     {active === 1  ?
-                        <img style={{cursor: 'pointer'}} className='stack_animate'  src="/stack_open.svg" alt="" />
+                        <img style={{cursor: 'pointer'}} className='stack_animate'  src="https://antoine-manu.github.io/PortfolioM1/stack_open.svg" alt="" />
                         :
-                        <img onClick={() => setActive(1)}  style={{cursor: 'pointer'}} className='stack_animate_default' src="/stack_close.svg" alt="" />
+                        <img onClick={() => setActive(1)}  style={{cursor: 'pointer'}} className='stack_animate_default' src="https://antoine-manu.github.io/PortfolioM1/stack_close.svg" alt="" />
                     }
                     <div onClick={() => setActive(1)} className={active === 1 ? "stack_imgs_img_pointer-active " : "stack_imgs_img_pointer highlight" }></div>
                 </div>
                 <div className='stack_imgs_img'>
                     {active === 2  ?
-                        <img style={{cursor: 'pointer'}} className='stack_animate'  src="/stack_open.svg" alt="" />
+                        <img style={{cursor: 'pointer'}} className='stack_animate'  src="https://antoine-manu.github.io/PortfolioM1/stack_open.svg" alt="" />
                         :
-                        <img onClick={() => setActive(2)} style={{cursor: 'pointer'}} className='stack_animate_default' src="/stack_close.svg" alt="" />
+                        <img onClick={() => setActive(2)} style={{cursor: 'pointer'}} className='stack_animate_default' src="https://antoine-manu.github.io/PortfolioM1/stack_close.svg" alt="" />
                     }
                     <div onClick={() => setActive(2)} className={active === 2 ? "stack_imgs_img_pointer-active " : "stack_imgs_img_pointer highlight" }></div>
                 </div>
@@ -66,20 +66,20 @@ export default function Card(){
                     <span className='stack_info_title'>Front end</span>
                     <div className='stack_info_items'>
                         <div className='stack_info_items_item'>
-                            <img className='stack_info_items_item_img' src="/techs/react.svg" alt=""/>
+                            <img className='stack_info_items_item_img' src="https://antoine-manu.github.io/PortfolioM1/techs/react.svg" alt=""/>
                             <span className='stack_info_items_item_title'>React</span>
                         </div>
                         <div className='stack_info_items_item'>
-                            <img className='stack_info_items_item_img' src="/techs/react.svg" alt=""/>
+                            <img className='stack_info_items_item_img' src="https://antoine-manu.github.io/PortfolioM1/techs/gsap.svg" alt=""/>
                             <span className='stack_info_items_item_title'>GSAP</span>
                         </div>
                         <div className='stack_info_items_item'>
-                            <img className='stack_info_items_item_img' src="/techs/react.svg" alt=""/>
+                            <img className='stack_info_items_item_img' src="https://antoine-manu.github.io/PortfolioM1/techs/jswhite.svg" alt=""/>
                             <span className='stack_info_items_item_title'>HTML/CSS/JS</span>
                         </div>
                         <div className='stack_info_items_item'>
-                            <img className='stack_info_items_item_img' src="/techs/react.svg" alt=""/>
-                            <span className='stack_info_items_item_title'>Jquery</span>
+                            <img className='stack_info_items_item_img' src="https://antoine-manu.github.io/PortfolioM1/techs/sass-svgrepo-com.svg" alt=""/>
+                            <span className='stack_info_items_item_title'>Sass</span>
                         </div>
                     </div>
                 </div>
@@ -88,19 +88,19 @@ export default function Card(){
                         <span className='stack_info_title'>Back end</span>
                         <div className='stack_info_items'>
                             <div className='stack_info_items_item'>
-                                <img className='stack_info_items_item_img' src="/techs/react.svg" alt=""/>
+                                <img className='stack_info_items_item_img' src="https://antoine-manu.github.io/PortfolioM1/techs/php01-svgrepo-com.svg" alt=""/>
                                 <span className='stack_info_items_item_title'>PHP</span>
                             </div>
                             <div className='stack_info_items_item'>
-                                <img className='stack_info_items_item_img' src="/techs/react.svg" alt=""/>
+                                <img className='stack_info_items_item_img' src="https://antoine-manu.github.io/PortfolioM1/techs/symfony-svgrepo-com.svg" alt=""/>
                                 <span className='stack_info_items_item_title'>Symfony / Laravel</span>
                             </div>
                             <div className='stack_info_items_item'>
-                                <img className='stack_info_items_item_img' src="/techs/react.svg" alt=""/>
+                                <img className='stack_info_items_item_img' src="https://antoine-manu.github.io/PortfolioM1/techs/nodejs02-svgrepo-com.svg" alt=""/>
                                 <span className='stack_info_items_item_title'>Node.JS</span>
                             </div>
                             <div className='stack_info_items_item'>
-                                <img className='stack_info_items_item_img' src="/techs/react.svg" alt=""/>
+                                <img className='stack_info_items_item_img' src="https://antoine-manu.github.io/PortfolioM1/techs/sql-svgrepo-com.svg" alt=""/>
                                 <span className='stack_info_items_item_title'>SQL/MongoDB</span>
                             </div>
                         </div>
@@ -110,19 +110,19 @@ export default function Card(){
                         <span className='stack_info_title'>Design</span>
                         <div className='stack_info_items'>
                             <div className='stack_info_items_item'>
-                                <img className='stack_info_items_item_img' src="/techs/react.svg" alt=""/>
+                                <img className='stack_info_items_item_img' src="https://antoine-manu.github.io/PortfolioM1/techs/design-ideas-svgrepo-com.svg" alt=""/>
                                 <span className='stack_info_items_item_title'>Design d'application</span>
                             </div>
                             <div className='stack_info_items_item'>
-                                <img className='stack_info_items_item_img' src="/techs/react.svg" alt=""/>
+                                <img className='stack_info_items_item_img' src="https://antoine-manu.github.io/PortfolioM1/techs/application-x-appliance-svgrepo-com.svg" alt=""/>
                                 <span className='stack_info_items_item_title'>Responsive dynamique</span>
                             </div>
                             <div className='stack_info_items_item'>
-                                <img className='stack_info_items_item_img' src="/techs/react.svg" alt=""/>
+                                <img className='stack_info_items_item_img' src="https://antoine-manu.github.io/PortfolioM1/techs/repair-svgrepo-com.svg" alt=""/>
                                 <span className='stack_info_items_item_title'>Mise en place d'animations</span>
                             </div>
                             <div className='stack_info_items_item'>
-                                <img className='stack_info_items_item_img' src="/techs/react.svg" alt=""/>
+                                <img className='stack_info_items_item_img' src="https://antoine-manu.github.io/PortfolioM1/techs/app-span-svgrepo-com (1).svg" alt=""/>
                                 <span className='stack_info_items_item_title'>Design system</span>
                             </div>
                         </div>
