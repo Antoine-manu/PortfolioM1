@@ -40,10 +40,10 @@
       }
     ],
     "images" : [
-      "Capture d’écran 2024-03-04 à 11.58.30",
-      "Capture d’écran 2024-03-04 à 11.59.21",
-      "Capture d’écran 2024-03-04 à 11.59.32",
-      "Capture d’écran 2024-03-04 à 12.00.01"
+      "posi0",
+      "posi2",
+      "posi3",
+      "posi4"
     ]
   },
   {
@@ -87,11 +87,11 @@
       }
     ],
     "images" : [
-      "Capture d’écran 2024-01-02 à 10.10.25",
-      "Capture d’écran 2024-01-02 à 10.12.38",
-      "Capture d’écran 2024-01-02 à 10.13.27",
-      "Capture d’écran 2024-01-02 à 10.13.40",
-      "Capture d’écran 2024-01-02 à 10.13.50"
+      "ter0",
+      "ter1",
+      "ter2",
+      "ter3",
+      "ter4"
     ]
   },
   {
@@ -135,10 +135,10 @@
       }
     ],
     "images" : [
-      "Capture d’écran 2024-01-02 à 10.03.49",
-      "Capture d’écran 2024-01-02 à 10.04.36",
-      "Capture d’écran 2024-01-02 à 10.05.56",
-      "Capture d’écran 2024-01-02 à 10.06.22"
+      "pho1",
+      "pho2",
+      "pho3",
+      "pho4"
     ]
   },
   {
@@ -182,10 +182,10 @@
       }
     ],
     "images" : [
-      "Capture d’écran 2024-03-04 à 16.27.46",
-      "Capture d’écran 2024-03-04 à 16.27.56",
-      "Capture d’écran 2024-03-04 à 16.28.14",
-      "Capture d’écran 2024-03-04 à 16.29.33"
+      "neuro1",
+      "neuro2",
+      "neuro3",
+      "neuro4"
     ]
   },
   {
@@ -226,11 +226,12 @@
       }
     ],
     "images" : [
-      "Capture d’écran 2024-01-02 à 10.16.41",
-      "Capture d’écran 2024-01-02 à 10.17.06",
-      "Capture d’écran 2024-01-02 à 10.35.29 (1)",
-      "Capture d’écran 2024-01-02 à 10.35.36",
-      "Capture d’écran 2024-01-02 à 10.35.55"
+      "alv1",
+      "alv2",
+      "alv3",
+      "alv4",
+      "alv5",
+      "alv6"
     ]
   },
   {
@@ -274,10 +275,10 @@
       }
     ],
     "images" : [
-      "Capture d’écran 2023-08-01 à 17.16.38 (1)",
-      "Capture d’écran 2023-08-02 à 09.17.53 (1)",
-      "Capture d’écran 2023-08-02 à 09.20.14 (1)",
-      "Capture d’écran 2023-08-02 à 09.42.08"
+      "h1",
+      "h2",
+      "h3",
+      "h4"
     ]
   },
   {
@@ -322,9 +323,8 @@
     ],
     "images" : [
       "codecodex1",
-      "Capture d’écran 2024-03-04 à 18.30.12",
-      "Capture d’écran 2024-03-04 à 18.30.25",
-      "Capture d’écran 2024-03-04 à 18.30.36"
+      "codecodex2",
+      "codecodex3"
     ]
   },
   {
@@ -368,10 +368,10 @@
       }
     ],
     "images" : [
-      "Capture d’écran 2024-03-04 à 18.11.57",
-      "Capture d’écran 2024-03-04 à 18.12.12",
-      "Capture d’écran 2024-03-04 à 18.12.22",
-      "Capture d’écran 2024-03-04 à 18.12.29"
+      "folio0",
+      "folio1",
+      "folio2",
+      "folio3"
     ]
   }
 ]
