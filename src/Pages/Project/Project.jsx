@@ -20,7 +20,7 @@ export default function Project(){
             </Link>
             <div className="project-head">
                 <div className="project-head-img">
-                    <img src={"/projects/" + project.mainImage + '.png'} alt=""/>
+                    <img src={"https://antoine-manu.github.io/PortfolioM1/projects/" + project.mainImage + '.png'} alt=""/>
                 </div>
                 <div className="project-head-text">
                     <span className="project-head-text-title">{project.title}</span>
@@ -94,7 +94,7 @@ export default function Project(){
             </div>
             <div className="project-gallery">
                 {project.images.map((image, index) => (
-                    <img key={index} src={"/projects/" + image + '.png'} alt=""/>
+                    <img key={index} src={"https://antoine-manu.github.io/PortfolioM1/projects/" + image + '.png'} alt=""/>
                 ))}
             </div>
         </div>
